@@ -1,8 +1,8 @@
-def count(text):
+def get_num_words(text):
     words = text.split()
     return len(words)
 
-def letters(text):
+def get_chars_dict(text):
     chars = {}
     for c in text:
         lowered = c.lower()
